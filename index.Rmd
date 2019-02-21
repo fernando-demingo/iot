@@ -1,0 +1,14 @@
+---
+title: "Cloud Computing of IoT"
+date: 2019
+author: "Yihui Xie"
+site: bookdown::bookdown_site
+documentclass: report
+output:
+  bookdown::pdf_document2:
+    toc: yes
+---
+
+
+
+

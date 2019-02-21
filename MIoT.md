@@ -1,9 +1,12 @@
+---
+marp:true
+---
 
-# Cloud computing for IoT 
+# Cloud computing for IoT
 
-- Luis Fernando de Mingo López
+#### Luis Fernando de Mingo López
 
-- Jessica Díaz
+#### Jessica Díaz
 
 #### 2019
 
@@ -14,7 +17,21 @@
 
 Hola 
 
+---
+
+
 # Virtualization
+
+*Emulation of some technological resource*: a hardware platform, an operating system or other network resources.
+
+**Virtual machine**: Virtualization of an execution environment for the execution of applications. Examples: JVM (Java Virtual Machine), CLR (Common Language Runtime) .NET
+
+**Hardware virtualization**: Virtualization of a complete hardware in which an operating system can be executed as if it were executed on real HW. In a virtualized environment you have several operating systems:
+
+- Host operating system (host)
+- Guest operating system (guest)
+
+---
 
 ## Vagrant
 
@@ -28,6 +45,7 @@ Vagrant is a tool for building and distributing development environments.
 vagrant init hashicporp/precise64
 vagrant up
 ```
+---
 
 ### Vagrant CLI
 
@@ -50,9 +68,3 @@ docker ps
 
 
 ## Puppet
-
-
-
-
-
-
