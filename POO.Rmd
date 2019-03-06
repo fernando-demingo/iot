@@ -1,28 +1,48 @@
 ---
 title: "Ejercicios POO"
 author: "Luis Fernando de Mingo López"
-date: "Parte I"
-output: pdf_document
+date: "2019 - Parte I"
+fontsize: 10pt
+mainfont: Monaco
+output:
+  pdf_document:
+    latex_engine: xelatex
+urlcolor: blue
 ---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 # Ejercicios básicos
 
 - Crear una clase Rectángulo, con atributos base y altura. Crear tam- bién el constructor de la clase y los métodos necesarios para calcular el área y el perímetro. Crear otra clase PruebaRectángulo que pruebe varios rectángulos y muestre por pantalla sus áreas y perímetros.
 
--Crear una clase Coche, a través de la cual se pueda conocer el color del coche, la marca, el modelo, el número de caballos, el número de puertas y la matrícula. Crear el constructor del coche, así como los métodos que considere necesarios.
+---
+
+- Crear una clase Coche, a través de la cual se pueda conocer el color del coche, la marca, el modelo, el número de caballos, el número de puertas y la matrícula. Crear el constructor del coche, así como los métodos que considere necesarios.
+
+---
 
 - Crear una clase PruebaCoche que instancie varios coches, cambiándole el color a lo largo de la vida a algunos de ellos y mostrándolo por pantalla.
 
+---
+
 - Crear una clase Tiempo, con atributos hora, minuto y segundo, que pueda ser construída indicando los tres atributos, sólo la hora y minuto o sólo la hora. Crear además los métodos necesarios para modificar la hora en cualquier momento de forma manual. Mantenga la integridad de los datos en todo momento.
 
-- Crear una clase PruebaTiempo que prueba una hora concreta y la modi- fique a su gusto mostrándola por pantalla.
+> Crear una clase PruebaTiempo que prueba una hora concreta y la modi- fique a su gusto mostrándola por pantalla.
+
+---
 
 - Se quiere crear una clase Cuenta la cual se caracteriza por tener asociado un número de cuenta y un saldo disponible. Además, se puede consultar el saldo disponible en cualquier momento, recibir abonos y pagar recibos.
 
-Crear además una clase Persona, que se caracteriza por un DNI y un array de cuentas bancarias. La Persona puede tener asociada hasta 3 cuentas bancarias, y debe tener un método que permite añadir cuentas (hasta 3 que es el máximo). También debe contener un método que devuelva si la persona es morosa, i.e., si tienen alguna cuenta con saldo negativo.
+> Crear además una clase Persona, que se caracteriza por un DNI y un array de cuentas bancarias. La Persona puede tener asociada hasta 3 cuentas bancarias, y debe tener un método que permite añadir cuentas (hasta 3 que es el máximo). También debe contener un método que devuelva si la persona es morosa, i.e., si tienen alguna cuenta con saldo negativo.
 
-Crear una clase PruebaCuentas que instancie un objeto Persona con un dni cualquiera, así como dos objetos cuenta, una sin saldo inicial y otra con 700 euros. La persona recibe la nómina mensual, por lo que ingresa 1100 euros en la primera cuenta, pero tiene que pagar el alquiler de 750 euros con la segunda. Imprimir por pantalla el si la persona es morosa. Posteriormente hacer una transferencia de una cuenta a otra y comprobar mostrándolo por pantalla que cambia el estado de la persona.
+> Crear una clase PruebaCuentas que instancie un objeto Persona con un dni cualquiera, así como dos objetos cuenta, una sin saldo inicial y otra con 700 euros. La persona recibe la nómina mensual, por lo que ingresa 1100 euros en la primera cuenta, pero tiene que pagar el alquiler de 750 euros con la segunda. Imprimir por pantalla el si la persona es morosa. Posteriormente hacer una transferencia de una cuenta a otra y comprobar mostrándolo por pantalla que cambia el estado de la persona.
+
+---
 
 - Queremos mantener una colección de los libros que hemos ido leyendo, poniéndoles una calificación según nos haya gustado más o menos al leerlo. Para ello, crear la clase Libro, cuyos atributos son el titulo, el autor, el número de páginas y la calificación que le damos entre 0 y 10. Crear los métodos típicos para poder modificar y obtener los atributos si tienen sentido. Posteriormente, crear una clase ConjuntoLibros, que almacena un conjunto de libros (con un array de un tamaño fijo). Se pueden añadir libros que no existan (siempre que haya espacio), eliminar libros por título o autor, mostrar por pantalla los libros con la mayor y menor calificación dada y, por último, mostrar un contenido de todo el conjunto.
 
-Crear una clase PruebaLibros, que realice varias pruebas con las clases creadas. En concreto, pruebe a: crear dos libros, añadirlos al conjunto, eliminarlos por los dos criterios hasta que el conjunto esté vacío, volver a añadir un libro y mostrar el contenido final.
+> Crear una clase PruebaLibros, que realice varias pruebas con las clases creadas. En concreto, pruebe a: crear dos libros, añadirlos al conjunto, eliminarlos por los dos criterios hasta que el conjunto esté vacío, volver a añadir un libro y mostrar el contenido final.

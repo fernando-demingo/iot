@@ -1,3 +1,8 @@
+---
+marp: true
+---
+
+
 Tools
 ===
 
@@ -112,7 +117,7 @@ Tools
 
 # Evolutionary Computation Bestiary
 
-- The field of meta-heuristic search algorithms has a long history of finding inspiration in natural systems. Starting from classics such as Genetic Algorithms and Ant Colony Optimization, the last two decades have witnessed a fireworks-style explosion (pun intended) of natural (and sometimes supernatural) heuristics - from Birds and Bees to Zombies and Reincarnation.
+- The field of meta-heuristic search algorithms has a long history of finding inspiration in natural systems. Starting from classics such as Genetic Algorithms and Ant Colony Optimization, the last two decades have witnessed a fireworks-style explosion (pun intended) of natural (and sometimes supernatural) heuristics - from **Birds** and **Bees** to **Zombies** and **Reincarnation**.
 
 - The goal of the Evolutionary Computation Bestiary is to catalog the exuberance of the meta-heuristic "eco-system". We try to keep a list of the many different animals, plants, microbes, natural phenomena and supernatural activities that can be spotted in the wild lands of the metaphor-based computation literature.
 
@@ -120,3 +125,36 @@ Tools
 
 
 [EC-Bestiary](https://github.com/fcampelo/EC-Bestiary)
+
+
+---
+
+# Gradle Please !
+
+- Search dependencies
+
+[Gradle Please](http://gradleplease.appspot.com)
+
+# Maven Central
+
+- Repository: From the community for the community
+
+[Search Maven Central](https://search.maven.org)
+
+---
+
+# Web pages to have a look
+
+- [Xataka](http://www.xataka.com)
+- [Xataka Movil](http://www.xatakamovil.com)
+- [Xataka Android](http://www.xatakandroid.com)
+- [Genbeta](http://www.genbetadev.com)
+- [Chollometro](http://www.chollometro.com)
+
+---
+
+# Live sport results
+
+Live sport results in `json` 
+
+ 

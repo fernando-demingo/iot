@@ -1,0 +1,19 @@
+---
+title: "Máster IoT"
+author: "Luis Fernando de Mingo López"
+date: "28/2/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Create Virtual machine based on Rancher OS
+```shell
+docker-machine 
+  create -d virtualbox 
+         --virtualbox-boot2docker-url "https://releases.rancher.com/os/latest/rancheros.iso" 
+         nodemaster
+```

@@ -1,0 +1,28 @@
+---
+title: "Rancher OS"
+author: "Luis Fernando de Mingo López"
+date: "3/3/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 
+
+https://rancher.com/docs/os/v1.x/en/quick-start-guide/
+
+
+```shell
+docker-machine create -d virtualbox \
+        --virtualbox-boot2docker-url https://releases.rancher.com/os/latest/rancheros.iso \
+        --virtualbox-memory 2048 \
+        <MACHINE-NAME>
+```
+
+```shell
+sudo system-docker run -d --net=host --name busydash husseingalal/busydash
+```
+
+
